@@ -1,5 +1,3 @@
-package luta;
-
 import java.util.Scanner;
 
 public class Luta {
@@ -13,8 +11,8 @@ public class Luta {
         if (l1.getCategoria() == l2.getCategoria()) {
             if (l1 != l2) {
                 setAprovado(true);
-               setDesafiado(l1);
-              setDesafinte(l2);
+                setDesafiado(l1);
+                setDesafinte(l2);
             }
         } else {
             setAprovado(false);
@@ -88,3 +86,8 @@ public class Luta {
         this.rounds = rounds;
     }
 }
+
+
+
+
+

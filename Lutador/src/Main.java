@@ -1,12 +1,8 @@
-import contas.ContaBanco;
-import luta.Lutador;
-import pacoteeee.Caneta;
-import pacoteeee.Estante;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Main {//get pega ,acessess6res um atributao mantendo a segurança de acesso, não ode mecher
+    //set moduificam coisdas que estao dentro do objeto, garantindo segurança do aributo
     public static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -41,6 +37,3 @@ public class Main {
 
     }
 }
-
-
-

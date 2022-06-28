@@ -1,5 +1,3 @@
-package luta;
-
 import java.util.Scanner;
 
 public class Lutador {
@@ -85,7 +83,7 @@ public class Lutador {
         } else if (getPeso() > 70.3 && getPeso() <= 83.3) {
             this.categoria="Medio";
         } else if(getPeso() > 83.3 ) {
-          this.categoria= "pesado";
+            this.categoria= "pesado";
         }else{
             this.categoria="Invalido";
         }
@@ -126,3 +124,4 @@ public class Lutador {
      */
 
 }
+
